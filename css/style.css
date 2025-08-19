@@ -16,9 +16,39 @@ h2{
     font-family: "comic sans ms";
     font-size: 40px;
 }
+h3{
+    color: yellow;
+    font-family: "comic sans ms";
+    font-size: 22px;
+    margin: 10px;
+}
 header img{
     width: 350px;
     height: auto;
     border: 10px solid yellow;
+}
 
+main {
+    width: 800px;
+    margin: 0 auto; /* Centers the main content */
+}
+.image-container {
+  display: flex;            /* put images side by side */
+  justify-content: center;  /* center them horizontally */
+  gap: 100px;                /* space between images */
+  margin-bottom: 20px;      /* space below the images */
+}
+
+.image-container img {
+  max-width: 500px;  /* optional: control image size */
+  height: auto;
+}
+.walt-sky-container img {
+    justify-content: center;
+    max-width: 350px;
+    height: auto;
+    border: silver 10px solid;
+    display: block;
+    margin: 0 auto; /* Centers the image */
+    
 }
